@@ -27,7 +27,7 @@ virtualTour.setNodes([
     {
         id: '1',
         panorama: './img/1.jpg',
-        thumbnail: './img/1.jpg',
+        thumbnail: './img/1-thumb.jpg',
         name: 'Лестница',
         links: [{ nodeId: '2', gps: [-200, 20] }],
         gps: [-110, -40],
@@ -35,7 +35,7 @@ virtualTour.setNodes([
     {
         id: '2',
         panorama: './img/2.jpg',
-        thumbnail: './img/2.jpg',
+        thumbnail: './img/2-thumb.jpg',
         name: '23 Кабинет',
         markers: [
           {
@@ -67,7 +67,7 @@ virtualTour.setNodes([
     {
       id: '3',
       panorama: './img/3.jpg',
-      thumbnail: './img/3.jpg',
+      thumbnail: './img/3-thumb.jpg',
       name: '24 Кабинет',
       markers: [
         {
@@ -99,7 +99,7 @@ virtualTour.setNodes([
   {
     id: '4',
     panorama: './img/4.jpg',
-    thumbnail: './img/4.jpg',
+    thumbnail: './img/4-thumb.jpg',
     name: '25-26 Кабинет',
     markers: [
       {
@@ -150,7 +150,7 @@ virtualTour.setNodes([
   {
     id: '5',
     panorama: './img/5.jpg',
-    thumbnail: './img/5.jpg',
+    thumbnail: './img/5-thumb.jpg',
     name: 'Лестница',
     links: [
       { nodeId: '4', gps: [-85, 0] },
