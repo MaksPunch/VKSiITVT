@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виртуальная Экскурсия</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./photo-sphere-viewer/core/index.css" />
+    <link rel="stylesheet" href="./photo-sphere-viewer/markers-plugin/index.css" />
+    <link rel="stylesheet" href="./photo-sphere-viewer/virtual-tour-plugin/index.css" />
+    <link rel="stylesheet" href="./photo-sphere-viewer/gallery-plugin/index.css" />
+    <script src="./three/build/three.min.js"></script>
+    <script src="./photo-sphere-viewer/core/index.js"></script>
+    <script src="./photo-sphere-viewer/virtual-tour-plugin/index.js"></script>
+    <script src="./photo-sphere-viewer/markers-plugin/index.js"></script>
+    <script src="./photo-sphere-viewer/gallery-plugin/index.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <div class="header_text">
+            <p>Виртуальная экскурсия</p>
+            <p>по ВКСиИТ</p>
+        </div>
+    </header>
+    <main>
+        <div class="about_college_container">
+            <h1>О колледже</h1>
+            <div class="about_college">
+                Вологодский колледж связи и информационных технологий начал свою историю в 1972 году. Сегодня выпускники колледжа продолжают свое обучение, совершенствуют умения в технике связи, становятся победителями областных и республиканских конкурсов «Лучший по профессии». Многие из них занимают руководящие посты на предприятиях и подразделениях сетей связи.
+            </div>
+        </div>
+        <div class="viewer_container">
+            <h1>Экскурсия</h1>
+            
+        </div>
+        
+    </main>
+    <div id="viewer"></div>
+    <footer>
+        <div class="contacts">
+            <div class="contacts_text">
+                <h2>Контакты</h2>
+                <p>E-mail: contact@vksit.ru</p>
+                <p>Телефон: +7 (8172) 75-51-33</p> 
+                <p>Адрес: 160011 г.Вологда, ул.Первомайская, д. 42</p> 
+                <p>АПОУ ВО ВКСиИТ</p> 
+            </div>
+            <div class="useful_links">
+                <h2>Полезные ссылки</h2>
+                <a href="#">Министерство просвещения РФ</a>
+                <a href="#">Министерство науки и высшего образования РФ</a>
+                <a href="#">Российское образование Федеральный портал</a>
+                <a href="#">Единое окно доступа к образовательным ресурсам</a>
+                <a href="#">Единая коллекция цифровых образовательный ресурсов</a>
+                <a href="#">Федеральный центр информационно образовательных ресурсов</a>
+            </div>
+        </div>
+        <div class="social">
+            <a href="#"><img src="img/nac.png" alt=""></a>
+            <a href="#"><img src="img/m.png" alt=""></a>
+            <a href="#"><img src="img/vk.png" alt=""></a>
+        </div>
+    </footer>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
